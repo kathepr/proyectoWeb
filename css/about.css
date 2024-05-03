@@ -1,0 +1,40 @@
+@import url(./variable.css);
+
+
+*{
+    box-sizing: border-box;
+}
+
+.body {
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90vh;
+}
+
+
+
+.main {
+    background-color: pink;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 100px
+
+}
+.main__imagen {
+    background-color: lightsalmon;
+}
+.main__contenido {
+    background-color: lightseagreen;
+    padding: 20px;
+}
+
+.main__contenido a{
+    text-decoration: none;
+    padding: 5px;
+    background-color: orangered;
+}
