@@ -1,0 +1,72 @@
+@import url(./variable.css);
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+.body {
+    background-color: red;
+    height: 97vh;
+}
+.main {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.main__titulo {
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__opciones {
+    background-color: lightskyblue;
+    display: flex;
+    gap: 50px;
+    text-align: center;
+
+}
+
+.opciones__1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(195, 122, 255);
+
+}
+
+.opciones__1 img{
+    height: 300px;
+    width: 300px;
+}
+
+.opciones__2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightseagreen;
+
+}
+
+.opciones__2 img{
+    height: 300px;
+    width: 300px;
+}
+
+.opciones__3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(235, 144, 238);
+
+}
+
+.opciones__3 img{
+    height: 300px;
+    width: 300px;
+}
