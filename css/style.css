@@ -1,0 +1,61 @@
+@import url(./variable.css);
+
+
+*{
+    box-sizing: border-box;
+}
+
+.body{
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    gap:50px
+
+
+}
+.header {
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between; /*horizontal*/
+
+}
+.header__titulo {
+    background-color: lightblue;
+}
+.header__navegacion {
+    background-color: lightgreen;
+    display: flex;
+    align-items: center; /*vertical*/
+    gap: 15px;
+}
+
+
+.header__navegacion a{
+    text-decoration: none;
+
+}
+
+
+.main {
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    height: 100%;
+    width: 100%;
+}
+.main__contenido {
+    background-color: aqua;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contenido__parrafo{
+
+}
+
+.main__imagen {
+    background-color: blueviolet;
+}
