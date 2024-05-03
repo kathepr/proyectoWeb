@@ -3,14 +3,15 @@
 
 *{
     box-sizing: border-box;
+
 }
 
 .body{
     background-color: red;
     display: flex;
     flex-direction: column;
-    gap:50px
-
+    gap:50px;
+    height: 100vh;
 
 }
 .header {
@@ -39,11 +40,22 @@
 .main {
     background-color: pink;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     gap: 100px;
-    height: 100%;
-    width: 100%;
+    padding-bottom: 20px;
+
+
 }
+
+
+.main__home{
+    display: flex;
+    flex-direction: row;
+
+}
+
 .main__contenido {
     background-color: aqua;
     display: flex;
@@ -52,10 +64,29 @@
     flex-direction: column;
 }
 
+.main__contenido h1{
+    font-size: 80px;
+}
+
 .contenido__parrafo{
 
 }
 
 .main__imagen {
     background-color: blueviolet;
+}
+
+.main__learnMore{
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding: 100px 250px;
+}
+
+.main__learnMore a{
+    text-decoration: none;
+    background-color: var(--color-1);
+    padding: 10px 30px;
 }
